@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
   background(18); // quasi nero
-  image(mappamondo, 70, 60, width-100, height-110);
+  image(mappamondo, 70, 80, width-100, height-110);
   drawGrid();
   drawVulcani();
   drawLegend();
